@@ -14,6 +14,7 @@ public class Floor {
     }
 
     public void pressUpButton(){
+        System.out.println("Button pressing UP");
         upButton.pressButton(id, ElevatorDirection.UP);
     }
     public void pressDownButton(){

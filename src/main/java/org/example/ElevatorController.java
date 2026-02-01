@@ -4,7 +4,7 @@ import org.example.enums.ElevatorDirection;
 
 import java.util.concurrent.PriorityBlockingQueue;
 
-public class ElevatorController {
+public class ElevatorController implements Runnable {
     //each elevator has its own elevator controller
 
    private final PriorityBlockingQueue<Integer>upMinPQ;
